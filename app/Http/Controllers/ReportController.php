@@ -11,6 +11,7 @@ use App\Report;
 use App\Template;
 use App\SharedScience\UiQueryBuilder\UiQueryBuilder;
 use Flynsarmy\DbBladeCompiler\Facades\DbView;
+use Illuminate\Support\Facades\Auth;
 
 class ReportController extends Controller
 {
