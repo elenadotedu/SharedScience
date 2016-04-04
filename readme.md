@@ -1,27 +1,43 @@
-# Laravel PHP Framework
+# Shared Science Web Application Project
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Shared Science is an organization, which was formed for the purpose of creating and delivering physical science and engineering learning opportunities to school-aged children (K-12), within Southern California, and initially within the City of Long Beach. [More Info] (http://sharedsciencefun.org/).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Shared Science required a database application, which allowed to import data using CSV and generate custom reports. Shared Science admin users requested the ability to filter the data they wanted to see and a way to customize the look of the reports.	
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+This is a demo version of the application, which comes with a few limited capabilities for the security purposes.
 
-## Official Documentation
+## Login
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Go to [Shared Science Demo Website](http://sharedscience.filatovaelena.com/).
 
-## Contributing
+Click login at the top right.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Enter demo@sharedscience.com for email, demo123 for password.
 
-## Security Vulnerabilities
+## CSV Import
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+You will need a properly formatted CSV file.
 
-## License
+Go to CSV -> Import.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Select a CSV map. For the purpose of the demo, you can leave it as Active Networks.
+
+Choose a file.
+
+Click Submit.
+
+## Reports
+
+You can view existing reports under Reports -> List or create a new one under Reports -> Create.
+
+Choose the base record for your query.
+
+Click Submit.
+
+Add filters under Filters tab.
+
+Add selects under Selects tab.
+
+Choose a template under Look tab. You can leave it at default to show all data. Note that Fun template will show the result from the first column, first row of the results.
+
+
