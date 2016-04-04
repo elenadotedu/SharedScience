@@ -38,6 +38,6 @@ Add filters under Filters tab.
 
 Add selects under Selects tab.
 
-Choose a template under Look tab. You can leave it at default to show all data. Note that Fun template will show the result from the first column, first row of the results.
+Choose a template under Look tab. You can leave it at default to show all data. Use Template Helper template to get a dynamically generated tutorial on creating a template for a specific report. Note: you are not allowed to create new templates in the demo version.
 
 
