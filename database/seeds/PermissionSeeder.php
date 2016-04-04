@@ -68,6 +68,6 @@ class PermissionSeeder extends Seeder
         $guest->givePermissionTo('edit reports');
         $guest->givePermissionTo('delete reports');
 
-        $staff->givePermissionTo('view csv_maps');
+        $guest->givePermissionTo('view csv_maps');
     }
 }
