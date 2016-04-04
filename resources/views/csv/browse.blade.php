@@ -19,6 +19,8 @@ Import a CSV File ::
 
 <div class="row">
     <div class="col-md-12">
+        
+        <a href="{{asset('assets/files/tester.csv')}}">Download a sample CSV file.</a>
 
         {!! Form::open(array('files'=>true, 'class' => 'form-horizontal', 'method' => 'POST', 'route' => array('csv_import'))) !!}
         {!! csrf_field() !!}
