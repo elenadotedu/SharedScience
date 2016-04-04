@@ -17,3 +17,4 @@ Thumbs.db
 public/packages
 app/storage
 app/config/database.php
+resources/views/templates/test
