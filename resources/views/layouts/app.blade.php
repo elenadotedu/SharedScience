@@ -257,7 +257,6 @@
 
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i> Logout</a></li>
-                            <li><a href="{{ route('users.edit', Auth::getUser()->id) }}"><i class="fa fa-btn fa-user"></i> My Account</a></li>
                         </ul>
                     </li>
                 @endif
@@ -298,7 +297,7 @@
                     <li>
                         <a href="#"><i class="fa fa-cogs fa-fw"></i> Reports<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            @can('create reports')
+                            @can('view reports')
                             <li pre-reg><a href="{{route('reports.pre_create')}}"> Create</a></li>
                             @endcan
                             @can('view reports')
